@@ -1,0 +1,21 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+
+# Windows metadata
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# VSCode metadata
+.vscode/
+
+# IDE/Editor files
+*.iml
+.idea/
+
+# Backup files
+*.bak
+*.tmp
+*.swp
