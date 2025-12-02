@@ -1,4 +1,4 @@
-
+import functools
 # The reward we give to miners (for creating a new block)
 MINING_REWARD = 10
 
@@ -41,6 +41,7 @@ def get_balance(participant):
     # This fetches sent amounts of open transactions (to avoid double spending)
     open_tx_sender = [tx['amount'] for tx in open_transactions if tx['sender'] == participant]
     tx_sender.append(open_tx_sender)
+    amount_sent = functools.reduce(lambda tx_sum, tx_am)
     amount_sent = 0
     # Calculate the total amount of coins sent
     for tx in tx_sender:
