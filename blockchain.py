@@ -1,5 +1,5 @@
 import functools
-import hashlib
+import hashlib #
 # The reward we give to miners (for creating a new block)
 MINING_REWARD = 10
 
